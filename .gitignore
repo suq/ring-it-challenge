@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# IDE/workspace
+.vscode/
+.idea/
+
+# Arduino secrets (keep local)
+arduino_secrets.h
+secrets*.h
+.env
+*.pem
+*.key
+
+# Build artifacts (belt & suspenders)
+*.bin
+*.elf
+*.eep
+*.hex
+*.map
+*.zip
+
+# Misc
+*.log
+*.tmp
